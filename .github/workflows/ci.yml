@@ -16,6 +16,7 @@ jobs:
 
       - name: Install package
         run: |
+	  pip install .
           python -m pip install --upgrade pipenv wheel
 
       - name: Test with pytest
