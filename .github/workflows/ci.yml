@@ -16,7 +16,7 @@ jobs:
 
       - name: Install package
         run: |
-	  pip install pytest
+	  python -m pip install --upgrade pytest wheel
 
       - name: Test with pytest
         run: |
